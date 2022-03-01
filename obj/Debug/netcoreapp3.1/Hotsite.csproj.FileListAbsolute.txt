@@ -64,4 +64,3 @@ C:\Users\noemi\Desktop\SENAC\MODULO II\UC 06\Noemi_At_01\projetohotsite\bin\Debu
 C:\Users\noemi\Desktop\SENAC\MODULO II\UC 06\Noemi_At_01\projetohotsite\bin\Debug\netcoreapp3.1\Serilog.Sinks.Async.dll
 C:\Users\noemi\Desktop\SENAC\MODULO II\UC 06\Noemi_At_01\projetohotsite\bin\Debug\netcoreapp3.1\Serilog.Sinks.File.dll
 C:\Users\noemi\Desktop\SENAC\MODULO II\UC 06\Noemi_At_01\projetohotsite\bin\Debug\netcoreapp3.1\Serilog.Sinks.RollingFile.dll
-C:\Users\noemi\Desktop\SENAC\MODULO II\UC 06\Noemi_At_01\projetohotsite\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Erro.cshtml.g.cs

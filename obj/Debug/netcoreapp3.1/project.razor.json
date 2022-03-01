@@ -14417,11 +14417,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\noemi\\Desktop\\SENAC\\MODULO II\\UC 06\\Noemi_At_01\\projetohotsite\\Views\\Shared\\Erro.cshtml",
-      "TargetPath": "Views\\Shared\\Erro.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\noemi\\Desktop\\SENAC\\MODULO II\\UC 06\\Noemi_At_01\\projetohotsite\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"

@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Hotsite.Models;
-using MySql.Data.MySqlClient;
 
 namespace Hotsite.Controllers
 {
@@ -31,7 +30,7 @@ namespace Hotsite.Controllers
             {
                 DatabaseService dbs = new DatabaseService();
                 dbs.CadastraInteresse(cad);
-                return Json (new {status = "OK"});
+                return Json (new {status = "Cadastro realizado com sucesso!!!"});
             }
     
             catch (Exception e)

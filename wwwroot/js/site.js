@@ -10,13 +10,13 @@
    $.post('/Home/Cadastrar', paramentros)
    .done(
      function(data){
-         if(data.status=="OK"){
-             $("#frm").after("<h3>Dados cadastrados com sucesso</h3>");
-             $("#frm").hide();
+         if(data.status=="Cadastro realizado com sucesso!!!"){
+             $("#form").after("<h3>Dados cadastrados com sucesso</h3>");
+             $("#form").hide();
              
          }
          else{
-            $("#frm").after("<h3>"+data.mensagem+"</h3>");
+            $("#form").after("<h3>"+data.mensagem+"</h3>");
          }
      }
    )
@@ -31,7 +31,7 @@
 $(document).ready(
     function()
     {
-        $("#frmCadastro").submit(
+        $("#formCadastro").submit(
             function(e)
             {
                 e.preventDefault();
