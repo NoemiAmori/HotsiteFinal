@@ -1,0 +1,2 @@
+2022-03-09T20:35:14.6294983-03:00 0HMG24LMUTRS0:00000002 [ERR] Falha na leitura: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure()' to the 'UseMySql' call. (ec765ce0)
+2022-03-09T20:39:14.7923984-03:00 0HMG24ND7IDPF:00000002 [ERR] Falha na leitura: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure()' to the 'UseMySql' call. (ec765ce0)

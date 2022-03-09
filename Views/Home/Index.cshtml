@@ -47,11 +47,11 @@
                 <div class="form-group row">
                     <label asp-for="Mensagem" class="col-sm-2 col-form-label">Mensagem (opcional):</label>
                     <div class="col-sm-10"></div>
-                        <textarea asp-for="Mensagem" class="form-control" id="mensagem"></textarea>
-                    </div>
+                    <textarea asp-for="Mensagem" class="form-control" id="mensagem"></textarea>
+                </div>
                 <div>
-                        <input type="submit" value="Enviar" id="btnEnviar" class="btn btn-primary" />
-                    </div>
+                    <input type="submit" value="Enviar" id="btnEnviar" class="btn btn-primary" />
+                </div>
             </form>
         </div>
     </div>
@@ -59,85 +59,89 @@
     <div class="col-12 col-md-12 col-lg-8 d-flex align-items-center">
         <div class="row">
             <div class="col-12 col-lg-4 text-center">
-                <figure class="figure">
-                    <img src="/imagens/agenda.jpg" alt="Agenda" class="img-fluid" style="max-width:200px;">
-                    <button type="button" class="btn btn-primary mt-2" data-bs-toggle="modal"
-                        data-bs-target="#modalAgenda">Agenda</button>
-                </figure>
+                <img src="/imagens/agenda.jpg" alt="Agenda" class="img-fluid" style="max-width:200px;">
+                <button type="button" class="btn btn-primary mt-2" data-toggle="modal"
+                    data-target="#Agenda">Agenda</button>
             </div>
 
             <div class="col-12 col-lg-4 text-center">
-                <figure class="figure">
-                    <img src="/imagens/saude.jpg" alt="Dicas" class="img-fluid" style="max-width:200px;">
-                    <button type="button" class="btn btn-primary mt-2" data-bs-toggle="modal"
-                        data-bs-target="#modalDicas">Dicas de vida saudável</button>
-                </figure>
+                <img src="/imagens/saude.jpg" alt="Dicas" class="img-fluid" style="max-width:200px;">
+                <button type="button" class="btn btn-primary mt-2" data-toggle="modal"
+                    data-target="#Dicas">Dicas de vida saudável</button>
             </div>
 
             <div class="col-12 col-lg-4 text-center">
-                <figure class="figure">
-                    <img src="/imagens/apoio.png" alt="Apoiadores" class="img-fluid" style="max-width:200px;">
-                    <button type="button" class="btn btn-primary mt-2 " data-bs-toggle="modal"
-                        data-bs-target="#modalApoiadores">Apoiadores</button>
-                </figure>
+                <img src="/imagens/apoio.png" alt="Apoiadores" class="img-fluid" style="max-width:200px;">
+                <button type="button" class="btn btn-primary mt-2 " data-toggle="modal"
+                    data-target="#Apoiadores">Apoiadores</button>
             </div>
         </div>
     </div>
 </div>
 
-<div class="modal fade" id="modalAgenda" tabindex="-1" aria-labelledby="modalAgendaLabel" aria-hidden="true">
+@*------ Modal Agenda ------*@
+<div class="modal fade" id="Agenda" tabindex="-1" aria-labelledby="modalAgendaLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header justify-content-center">
                 <h2 class="modal-title" id="exampleModalLabel">Agenda</h2>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
             </div>
 
             <div class="modal-body">
                 <h3 class="text-center">10/10/10 10:10 - Evento 1</h3>
-                <p class="mb-5">Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae.</p>
+                <p class="mb-5">Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae.
+                </p>
                 <h3 class="text-center">10/10/10 11:10 - Evento 2</h3>
-                <p class="mb-5">LLorem ipsum dolor sit amet et delectus accommodare his consul copiosae.</p>
+                <p class="mb-5">LLorem ipsum dolor sit amet et delectus accommodare his consul copiosae.
+                </p>
                 <h3 class="text-center">10/10/10 12:10 - Evento 3</h3>
-                <p class="mb-5">Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae.</p>
+                <p class="mb-5">Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae.
+                </p>
             </div>
-
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-            </div>
-
         </div>
     </div>
 </div>
 
-<div class="modal fade" id="modalDicas" tabindex="-1" aria-labelledby="modalDicasLabel" aria-hidden="true">
+@*------ Modal Dicas ------*@
+<div class="modal fade" id="Dicas" tabindex="-1" aria-labelledby="modalDicasLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header justify-content-center">
                 <h2 class="modal-title" id="exampleModalLabel">Dicas de vida saudável</h2>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
             </div>
+
             <div class="modal-body">
-                <p>Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent
+                <p>Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at
+                    vix ad putent
                     delectus delicata usu. Vidit dissentiet eos.</p>
 
-                <p>Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent
+                <p>Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at
+                    vix ad putent
                     delectus delicata usu. Vidit dissentiet eos.</p>
 
-                <p>Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent
+                <p>Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at
+                    vix ad putent
                     delectus delicata usu. Vidit dissentiet eos.</p>
-            </div>
-
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
             </div>
         </div>
     </div>
 </div>
 
-<div class="modal fade" id="modalApoiadores" tabindex="-1" aria-labelledby="modalApoiadoresLabel" aria-hidden="true">
+@*------ Modal Apoiadores ------*@
+<div class="modal fade" id="Apoiadores" tabindex="-1" aria-labelledby="modalApoiadoresLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header justify-content-center">
                 <h2 class="modal-title" id="exampleModalLabel">Apoiadores</h2>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
             </div>
             <div class="modal-body">
                 <div class="card mb-3 pl-3" style="max-width:340px;">
@@ -199,11 +203,6 @@
                     </div>
                 </div>
             </div>
-
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-            </div>
-
         </div>
     </div>
 </div>
